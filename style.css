@@ -1,0 +1,39 @@
+/* ... Kode CSS lama lo di sini ... */
+
+/* Promo baru */
+.promo {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 193, 7, 0.2); /* Kuning transparan eye-catching */
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Kontak baru */
+.kontak {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Hover effect biar interaktif */
+.katalog-container section:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile responsif lebih baik */
+@media (max-width: 768px) {
+    .katalog-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .katalog-container section {
+        width: 90%;
+    }
+    .hero h2 {
+        font-size: 1.5em;
+    }
+}

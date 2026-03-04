@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Semantic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Member Area</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Artikel</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- LOGIN SECTION -->
+        <section aria-labelledby="login-title">
+            <h2 id="login-title">Login</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Masuk ke Akun</legend>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Login</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- CARD SECTION -->
+        <section aria-labelledby="artikel-title">
+            <h2 id="artikel-title">Artikel Terbaru</h2>
+
+            <article>
+                <header>
+                    <h3>Belajar HTML Dasar</h3>
+                </header>
+                <p>Memahami struktur dasar HTML untuk pemula.</p>
+                <footer>
+                    <small>Diposting 3 Maret 2026</small>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Kenapa Semantic Penting?</h3>
+                </header>
+                <p>Semantic HTML membantu SEO dan aksesibilitas.</p>
+                <footer>
+                    <small>Diposting 2 Maret 2026</small>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Struktur Web Profesional</h3>
+                </header>
+                <p>Menyusun layout web dengan cara yang rapi dan scalable.</p>
+                <footer>
+                    <small>Diposting 1 Maret 2026</small>
+                </footer>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Member Area. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
